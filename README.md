@@ -4,7 +4,14 @@
 ![Static Badge](https://img.shields.io/badge/python-3.9-blue)
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://floodmapv2-wnakuiqz4idj5pr4ugzemq.streamlit.app/)
 
-An app powered by Streamlit to visualize the flood incidents in Malaysia from 2015 to 2022. 
+An app powered by `Streamlit` to visualize the flood incidents in Malaysia from 2015 to 2021. 
+
+The app is capable of:
+- Estimate the extent of a flood
+- Visualize flood incidents' statistics
+    - On bar chart, market cluster plot and heatmap
+
+<img src="image.png"  class = "center"/>
 
 ## Flood Mapping Tool
 The web app contains a feature to allow user to estimate flood extent using Sentinel-1 synthetic-aperture radar SAR data. 
@@ -28,22 +35,18 @@ The web app contains a feature to allow user to estimate flood extent using Sent
     EARTHENGINE_TOKEN = 'PASTE WHAT YOU COPY HERE'
     ee_keys = 'PASTE WHAT YOU COPY HERE'
     ```
+## Resources
+The flood incidents data is collected from the annual flood report published by the Department of Irrigation and Drainage. The report can be found here:
 
-## Updates
-1. 8/1/2023 
-    - Perform second run for geocoding to check performance deviation
-2. 8/2/2023 
-    - Perform alternative run for geocoding using address format: Place, Region
-    - Perform reverse geocode to check geocoding accuracy
-    - Updates maps and app contents
-3. 8/3/2023
-    - Perform reverse geocoding to search location postal code
-    - Explore on adding [flood mapping tool](https://github.com/mapaction/flood-mapping-tool) and some [geospatial application](https://github.com/opengeos/streamlit-geospatial)
-4. 8/4/2023
-    - Updates web app features based on previous exploration for tool
-5. 8/7/2023
-    - On Flood Mapping Tool pages, add an overlay for flood points
-        - Include sizeable circle around each flood points
+|Flood Annual Report|Link|
+|-------------------|----|
+|2015 Report|[Link](https://info.water.gov.my/index.php/databank/view_attachment/5486)|
+|2016 Report|[Link](http://h2o.water.gov.my/man_hp1/Banjir_Tahun1617.pdf)|
+|2017 Report|[link](http://h2o.water.gov.my/man_hp1/LBT2017-2018.pdf)|
+|2018 Report|[Link](http://h2o.water.gov.my/man_hp1/LBT2018_2019.pdf)|
+|2019 Report|[Link](http://h2o.water.gov.my/man_hp1/2019.pdf)|
+|2020 Report|[Link](http://h2o.water.gov.my/man_hp1/LBT2020.pdf)|
+|2021 Report|[Link](http://h2o.water.gov.my/man_hp1/LAPORAN%20BANJIR%20TAHUN%202021%20FINAL%20e-ISSN.pdf)|
 
 ## References
 1. [mapaction/flood mapping tool](https://github.com/mapaction/flood-mapping-tool)
