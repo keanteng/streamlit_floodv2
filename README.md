@@ -1,4 +1,4 @@
-# Streamlit App For Flood Incidents in Malaysia
+# Streamlit App For Flood Incidents in Malaysia <!-- omit in toc -->
 
 ![Static Badge](https://img.shields.io/badge/license-MIT-blue)
 ![Static Badge](https://img.shields.io/badge/python-3.9-blue)
@@ -6,7 +6,16 @@
 
 An app powered by `Streamlit` to visualize the flood incidents in Malaysia from 2015 to 2021. 
 
-The app is capable of:
+**Table of Contents:**
+
+- [Functions](#functions)
+- [Flood Mapping Tool](#flood-mapping-tool)
+- [Using this repository](#using-this-repository)
+- [Resources](#resources)
+- [References](#references)
+
+
+## Functions
 - Estimate the extent of a flood
 - Visualize flood incidents' statistics
     - On bar chart, market cluster plot and heatmap
@@ -38,15 +47,15 @@ The web app contains a feature to allow user to estimate flood extent using Sent
 ## Resources
 The flood incidents data is collected from the annual flood report published by the Department of Irrigation and Drainage. The report can be found here:
 
-|Flood Annual Report|Link|
-|-------------------|----|
-|2015 Report|[Link](https://info.water.gov.my/index.php/databank/view_attachment/5486)|
-|2016 Report|[Link](http://h2o.water.gov.my/man_hp1/Banjir_Tahun1617.pdf)|
-|2017 Report|[link](http://h2o.water.gov.my/man_hp1/LBT2017-2018.pdf)|
-|2018 Report|[Link](http://h2o.water.gov.my/man_hp1/LBT2018_2019.pdf)|
-|2019 Report|[Link](http://h2o.water.gov.my/man_hp1/2019.pdf)|
-|2020 Report|[Link](http://h2o.water.gov.my/man_hp1/LBT2020.pdf)|
-|2021 Report|[Link](http://h2o.water.gov.my/man_hp1/LAPORAN%20BANJIR%20TAHUN%202021%20FINAL%20e-ISSN.pdf)|
+| Flood Annual Report | Link                                                                                         |
+| ------------------- | -------------------------------------------------------------------------------------------- |
+| 2015 Report         | [Link](https://info.water.gov.my/index.php/databank/view_attachment/5486)                    |
+| 2016 Report         | [Link](http://h2o.water.gov.my/man_hp1/Banjir_Tahun1617.pdf)                                 |
+| 2017 Report         | [link](http://h2o.water.gov.my/man_hp1/LBT2017-2018.pdf)                                     |
+| 2018 Report         | [Link](http://h2o.water.gov.my/man_hp1/LBT2018_2019.pdf)                                     |
+| 2019 Report         | [Link](http://h2o.water.gov.my/man_hp1/2019.pdf)                                             |
+| 2020 Report         | [Link](http://h2o.water.gov.my/man_hp1/LBT2020.pdf)                                          |
+| 2021 Report         | [Link](http://h2o.water.gov.my/man_hp1/LAPORAN%20BANJIR%20TAHUN%202021%20FINAL%20e-ISSN.pdf) |
 
 ## References
 1. [mapaction/flood mapping tool](https://github.com/mapaction/flood-mapping-tool)
