@@ -2,7 +2,7 @@
 
 ![Static Badge](https://img.shields.io/badge/license-MIT-blue)
 ![Static Badge](https://img.shields.io/badge/python-3.9-blue)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://floodmapv2-wnakuiqz4idj5pr4ugzemq.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://floodmapv2-wnakuiqz4idj5pr4ugzemq.streamlit.app/](https://appfloodv2-kpwtgczuealpobmjgv62mh.streamlit.app/))
 
 An app powered by `Streamlit` to visualize the flood incidents in Malaysia from 2015 to 2021. 
 
